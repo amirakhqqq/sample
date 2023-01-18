@@ -20,3 +20,7 @@ this a  direct commit without staging , comiting without staging is not recommen
 git commit -a -m "Updated index.html with a new line"    
 git instruction -help
 
+git branch somename
+git branch
+git checkout name_of_branch
+
