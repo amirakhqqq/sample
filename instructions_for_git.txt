@@ -25,3 +25,8 @@ git branch
 git checkout name_of_branch
 git checkout -b name_of_branch this make the new branch 
 git branch -d name_of_branch delete the branch
+
+git merge some branch
+
+git remote add origin https://github.com/w3schools-test/hello-world.git
+git push --set-upstream origin master
