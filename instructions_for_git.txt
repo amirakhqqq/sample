@@ -8,5 +8,15 @@ git config --global user.email "your email address"
 git init 
 
 git status  
+git status --short      
 Staged files are files that are ready to be committed to the repository you are working on
 git add some_file 
+git add --all
+Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
+When we commit, we should always include a message.
+
+$ git commit -m "First release of Hello World!"
+this a  direct commit without staging , comiting without staging is not recommended
+git commit -a -m "Updated index.html with a new line"    
+git instruction -help
+
