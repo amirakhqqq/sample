@@ -1,0 +1,12 @@
+
+git --version
+%I am trying to give information, which will be used in every commit.
+git config --gloabal user.name "your name "
+git config --global user.email "your email address"
+
+% set up a git on a folder 
+git init 
+
+git status  
+Staged files are files that are ready to be committed to the repository you are working on
+git add some_file 
