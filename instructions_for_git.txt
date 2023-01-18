@@ -14,7 +14,7 @@ git add some_file
 git add --all
 Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
 When we commit, we should always include a message.
-
+fsd
 $ git commit -m "First release of Hello World!"
 this a  direct commit without staging , comiting without staging is not recommended
 git commit -a -m "Updated index.html with a new line"    
